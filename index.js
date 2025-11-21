@@ -1,7 +1,7 @@
 //Write your code here
 const attendee = {
   name: "Alice Smith"
-  event: "JavaScript Conference",
+  event: "JavaScript Conference ",
   ticketType: "VIP",
   ticketPrice: 150
 };
@@ -13,7 +13,7 @@ function logTicketPrice(attendee) {
   console.log(attendee.ticketPrice)
 }
 function updateTicketType(attendee, newTicketType) {
-   attendee.ticketType = newTicketType;{
+   attendee.ticketType = newTicketType;
 }
 function updateTicketPrice(attendee, newticketPrice) {
   attendee.ticketPrice = newTicketPrice;
